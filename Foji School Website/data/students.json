@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Ali Hassan",
+    "father_name": "Hassan Raza",
+    "class": 6,
+    "username": "alihassan",
+    "cnic": "12345-6666666-6",
+    "email": "ali@gmail.com",
+    "password": "ali123"
+  },
+  {
+    "id": 2,
+    "name": "Fatima Noor",
+    "father_name": "Noor Ahmed",
+    "class": 7,
+    "username": "fatimanoor",
+    "cnic": "98765-1111111-1",
+    "email": "fatima@gmail.com",
+    "password": "fatima321"
+  },
+  {
+    "id": 3,
+    "name": "Zain Malik",
+    "father_name": "Malik Asad",
+    "class": 8,
+    "username": "zainmalik",
+    "cnic": "11111-7777777-7",
+    "email": "zain@gmail.com",
+    "password": "zain888"
+  },
+  {
+    "id": "e1d69557-7276-4558-b4c4-f4e40a60290a",
+    "name": "Shahryar Ali",
+    "father_name": "Hyder Ali",
+    "class": "6",
+    "previous_school": "MontiSorry",
+    "phone": "03298954828",
+    "email": "shaharyara494@gmail.com",
+    "cnic": "41601-1234567-1",
+    "photo": "photo.jpg",
+    "password": "123",
+    "created_at": "2025-11-25T17:10:37.570261"
+  },
+  {
+    "id": "3fb767dc-460c-464e-9f89-834ba4b27138",
+    "name": "Hamza Sheikh",
+    "father_name": "Sheikh Imran",
+    "class": 5,
+    "previous_school": "City Public School",
+    "phone": "03001234567",
+    "email": "hamza@gmail.com",
+    "cnic": "22222-3333333-4",
+    "photo": null,
+    "password": "changeme",
+    "created_at": "2025-11-25T17:10:39.723596"
+  }
+]
