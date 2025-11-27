@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <h2>Admission Form</h2>
+  <form method="post">
+    <p><label>Student Name<br><input name="student_name" required></label></p>
+    <p><label>Father Name<br><input name="father_name" required></label></p>
+    <p><label>Class<br>
+      <select name="class" required>
+        <option value="">Select Class</option>
+	<option>Class ECE</option>
+	<option>Class 1</option>
+	<option>Class 2</option>
+	<option>Class 3</option>
+	<option>Class 4</option>
+	<option>Class 5</option>
+        <option>Class 6</option>
+        <option>Class 7</option>
+        <option>Class 8</option>
+        <option>Class 9</option>
+        <option>Class 10</option>
+      </select>
+    </label></p><br>
+    <p><label>DOB<br><input type="date" name="dob" required></label></p><br>
+    <p><label>Address<br><textarea name="address" required></textarea></label></p><br>
+    <p><label>Contact<br><input name="contact" required></label></p><br>
+    <p><label>Email<br><input type="email" name="email" required></label></p><br>
+    <p><label>Previous School<br><input name="previous_school"></label></p><br>
+    <p><label>CNIC<br><input name="cnic" required></label></p><br>
+    <p><label>Password (for student login)<br><input type="password" name="password" required></label></p>
+    <label>Photo: <input type="file" name="photo" accept="image/*"></label><br>
+    <p><button class="btn" type="submit">Submit Admission</button></p><br>
+  </form>
+</div>
+{% endblock %}
